@@ -7,5 +7,5 @@ export const INITIAL_TICKERS = [
   { name: "Amazon", ticker: "AMZN" },
   { name: "Netflix", ticker: "NFLX" },
   { name: "Nike", ticker: "NKE" },
-  { name: "Coca Cola", ticker: "KO" },
+  { name: "Gamestop", ticker: "GME" },
 ];

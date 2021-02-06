@@ -2,6 +2,7 @@ import { useRouter } from "next/dist/client/router";
 import Link from "next/link";
 import React from "react";
 import { Disclaimer } from "./Disclaimer";
+import { ProductHunt } from "./ProductHunt";
 import { SearchInput } from "./SearchInput";
 import { Social } from "./Social";
 
@@ -17,6 +18,7 @@ export const Hero: React.FC = ({ children }) => {
         <HeroTitle />
         <SearchInput />
         <Disclaimer className="hidden lg:block" />
+        <ProductHunt />
       </div>
       <div>
         {children}
