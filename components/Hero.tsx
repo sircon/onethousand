@@ -18,7 +18,7 @@ export const Hero: React.FC = ({ children }) => {
         <HeroTitle />
         <SearchInput />
         <Disclaimer className="hidden lg:block" />
-        <ProductHunt />
+        <ProductHunt className="hidden lg:block lg:mt-6" />
       </div>
       <div>
         {children}

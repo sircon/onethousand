@@ -7,6 +7,7 @@ import React from "react";
 import { Banner } from "../components/Banner";
 import { Footer } from "../components/Footer";
 import { Newsletter } from "../components/Newsletter";
+import { ProductHunt } from "../components/ProductHunt";
 import SEO from "../next-seo.config";
 import "../styles/index.css";
 
@@ -21,6 +22,7 @@ function onethousandApp({ Component, pageProps }: AppProps) {
       <Banner />
       <Component {...pageProps} />
       <Newsletter />
+      <ProductHunt className="block lg:hidden my-2" />
       <Footer />
     </>
   );
