@@ -11,12 +11,8 @@ import { SearchPlaceholder } from "./SearchPlaceholder";
 export const SearchInput: React.FC = () => {
   const ref = useRef<HTMLDivElement>(null);
   const input = useRef<HTMLInputElement>(null);
-  const {
-    push,
-    asPath,
-    query: { ticker },
-  } = useRouter();
-  const [value, setValue] = useState(ticker as string);
+  const { push } = useRouter();
+  const [value, setValue] = useState("");
   const [results, setResults] = useState<Quote[]>([]);
   const [isLoading, setLoading] = useState(false);
   const [isOpen, setOpen] = useSelectOpenState(ref, false);

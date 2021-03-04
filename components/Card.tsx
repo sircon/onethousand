@@ -44,7 +44,7 @@ export const Card: React.FC<CardProps> = ({
           </h2>
           <div className="z-10 space-y-2">
             <h2 className="z-10 text-lg md:text-2xl text-indigo-100">
-              is what you would have made if you had invested{" "}
+              is what you would have today if you had invested{" "}
               <strong className="text-white whitespace-nowrap">$1 000</strong>{" "}
               in <strong className="text-white">{formattedTickerName}</strong>{" "}
               stocks back in{" "}
